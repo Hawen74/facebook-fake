@@ -1,0 +1,109 @@
+.sidebarleft {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  
+  padding-left: 10px;
+  padding-bottom: 1000px;
+  flex-grow: 1;
+  
+  position: fixed;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+}
+
+.container-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.facep {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.shortcut {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+
+.short {
+  font-weight: bold;
+  color: gray;
+  font-size: 17px;
+  margin-left: 8px;
+}
+
+.edit {
+  color: rgb(0, 100, 209);
+  padding: 8px 5px;
+  margin-right: 10px;
+  opacity: 0;
+}
+
+.bottom:hover .edit {
+  opacity: 1;
+}
+
+.edit:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.activity:hover {
+  background-color: lightgray;
+  border-radius: 8px;
+}
+
+.activity {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+}
+
+.activity img {
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+  margin-right: 8px;
+}
+
+.policy {
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  font-size: 14px;
+  padding: 16px;
+  padding-left: 8px;
+}
+
+.policy span:hover {
+  text-decoration: underline;
+}
+
+.policy p {
+  display: inline-block;
+}
